@@ -1,7 +1,8 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import Form from './Form';
-import List from './List';
+import List from './List'; // Convert list to table
+import Table from './Table';
 
 // Mainly to practice useEffect and fetching json data, using fetch api.
 
@@ -44,7 +45,12 @@ function App() {
       />
 
       {/* Pass variables as "class" parameters */}
-      <List 
+      {/* <List 
+        data={data}
+      />*/}
+
+      {/* Change from list component to a table component */}
+      <Table 
         data={data}
       />
     </div>

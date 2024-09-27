@@ -12,3 +12,8 @@ The project is divided into two sections
 List 3 buttons at the top of the site: users, posts, and comments.
 When selecting a button, it requests the associated data from the json website.
 Then print a list of all the objects that are recieved.
+
+# Section B
+
+Take the data produced from Section A and format it into a table.
+Keep the buttons to be displayed at the top of the page (css)
